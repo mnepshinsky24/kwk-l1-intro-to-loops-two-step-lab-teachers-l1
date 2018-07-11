@@ -11,6 +11,7 @@ def first_steps
   end
 end
 
+
 def a_few_more_steps
   loop do
     puts "Right foot back"
@@ -32,35 +33,38 @@ def a_few_more_steps
   end
 end
 
-def how_many_steps?
-  steps = 0
-  loop do
-    steps += 1
-    puts steps
-    if (steps % 2 == 0)
+def how_many_steps 
+  steps = 0 
+  loop do 
+    steps += 1 
+    puts steps 
+    if steps % 2 == 0 
       puts 'Left'
-    else
-      puts 'Right'
-    end
+    else 
+      puts 'Right' 
+    end 
     sleep(0.5)
-  end
-end
+  end 
+end 
 
-def break_dance
-  steps = 0
-  loop do
-    steps += 1
-    puts steps
-    if (steps % 2 == 0)
+
+
+def break_dance 
+  steps = 0 
+  loop do 
+    steps += 1 
+    puts steps 
+    if steps % 2 == 0 
       puts 'Left'
-    else
-      puts 'Right'
-    end
+    else 
+      puts 'Right' 
+    end 
     sleep(0.5)
-    if steps == 6
+    if steps == 6 
       break
-    end
-  end
-end
+    end 
+  end 
+end 
 
 break_dance 
+
